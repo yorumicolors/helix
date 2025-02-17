@@ -1,5 +1,7 @@
+# Theme: Yorumi Abyss
+# Author: yorumicolors
+
 # Syntax highlighting
-# -------------------
 "attribute" = "umiYellow"
 
 "type" = "umiYellow"
@@ -23,7 +25,7 @@
 "variable.builtin" = "umiRed"
 "variable.other.member" = "umiBlue"
 
-"label" = "sangoBlue" # used for lifetimes
+"label" = "sangoBlue" 
 
 "punctuation" = "tsuki1"
 "punctuation.special" = "umiMagenta"
@@ -40,7 +42,7 @@
 
 "namespace" = { fg = "sangoYellow" }
 
-"special" = "umiBlue" # fuzzy highlight
+"special" = "umiBlue"
 
 "markup.heading.1" = "kuroiRed"
 "markup.heading.2" = "kuroiGreen"
@@ -63,7 +65,6 @@
 "diff.delta" = "umiBlue"
 
 # User Interface
-# --------------
 "ui.background" = { fg = "tsuki3", bg = "yoru0" }
 
 "ui.linenr" = { fg = "tsuki1" }
