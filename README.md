@@ -3,7 +3,7 @@
   <sup>yorumi for helix - deep code, quiet sea</sup> 
 </h1>
 
-<img src="preview.png"> 
+<img src="assets/preview.png"> 
 
 
 Yorumi – a calming deep sea colorscheme for developers. 
