@@ -30,8 +30,9 @@ theme = "yorumi_abyss"
 ### Themes
 - abyss: the dark colorscheme
 - mist: the lighter version
-  
-> A light version of this colorscheme is in the making and will soon be available as `mist`
+- shade:  the washed off dark flavor of yorumi
+- kraken: purple version of yorumi
+
 
 ### Accessibility
 The text colors maintain a 7:1 contrast ratio, [WCAG 2.1 Level AAA](https://www.w3.org/TR/WCAG21/#contrast-enhanced).
