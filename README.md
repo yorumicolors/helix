@@ -16,7 +16,7 @@ Less eye strain, more code magic. Dive into the soothing world of yorumi and kee
 
 ### Installation and Usage
 
-Download the theme file into a config location:
+Download the theme file from the `themes` folder into a config location:
 
 - Windows: `C:\Users\Username\AppData\Roaming\helix\themes\yorumi_choice.toml`
 - Linux/Mac: `~/.config/helix/themes/yorumi_choice.toml`
