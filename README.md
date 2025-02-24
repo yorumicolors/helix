@@ -18,12 +18,12 @@ Less eye strain, more code magic. Dive into the soothing world of yorumi and kee
 
 Download the theme file from the `themes` folder into a config location:
 
-- Windows: `C:\Users\Username\AppData\Roaming\helix\themes\yorumi_choice.toml`
-- Linux/Mac: `~/.config/helix/themes/yorumi_choice.toml`
+- Windows: `C:\Users\Username\AppData\Roaming\helix\themes\yorumi-flavour.toml`
+- Linux/Mac: `~/.config/helix/themes/yorumi-flavour.toml`
 
 Add the theme key to the top of your `config.toml`
 ```toml
-theme = "yorumi_abyss"
+theme = "yorumi-[options: abyss|mist|kraken|shade]"
 # ...
 ```
 
