@@ -1,8 +1,8 @@
-# Theme: Yorumi Abyss
+# Theme: Yorumi Kraken
 # Author: yorumicolors
 
 # Syntax highlighting
-"attribute" = "umiYellow"
+"attribute" = "sangoOrange"
 
 "type" = "umiYellow"
 "type.enum.variant" = "umiCyan"
@@ -13,16 +13,17 @@
 "constant.character" = "umiCyan"
 "constant.character.escape" = "kuroiViolet"
 
-"string" = "umiGreen"
-"string.regexp" = "sangoViolet"
+"string" = "sangoGreen"
+"string.regexp" = "sangoRed"
 "string.special" = "umiBlue"
-"string.special.symbol" = "umiRed"
+"string.special.symbol" = "sangoYellow"
 
 "comment" = { fg = "tsuki0" }
 
-"variable" = "sangoCyan"
-"variable.parameter" = { fg = "kuroiRed" }
-"variable.builtin" = "umiRed"
+"variable" = { fg = "tsuki3" }
+"variable.parameter" = { fg = "tsuki2" }
+"variable.builtin" = { fg = "sangoRed" }
+"variable.member" = "sangoYellow"
 "variable.other.member" = "umiBlue"
 
 "label" = "sangoBlue" 
@@ -33,9 +34,9 @@
 "keyword" = "sangoViolet"
 "keyword.control.conditional" = { fg = "sangoViolet" }
 
-"operator" = "umiYellow"
+"operator" = "sangoYellow"
 
-"function" = "umiBlue"
+"function" = "sangoBlue"
 "function.macro" = "sangoViolet"
 
 "tag" = "umiBlue"
@@ -44,12 +45,13 @@
 
 "special" = "umiBlue"
 
-"markup.heading.1" = "kuroiRed"
-"markup.heading.2" = "kuroiGreen"
-"markup.heading.3" = "umiGreen"
-"markup.heading.4" = "umiYellow"
-"markup.heading.5" = "umiBlue"
-"markup.heading.6" = "kuroiBlue"
+"markup.heading.1" = "sangoBlue"
+"markup.heading.2" = "sangoBlue"
+"markup.heading.3" = "sangoBlue"
+"markup.heading.4" = "sangoBlue"
+"markup.heading.5" = "sangoBlue"
+"markup.heading.6" = "sangoBlue"
+
 "markup.list" = "umiCyan"
 "markup.list.unchecked" = "tsuki2"
 "markup.list.checked" = "umiGreen"
@@ -57,37 +59,38 @@
 "markup.italic" = { fg = "kuroiRed", modifiers = ["italic"] }
 "markup.link.url" = { fg = "umiBlue", modifiers = ["underlined"] }
 "markup.link.text" = "sangoYellow"
-"markup.raw" = "umiGreen"
+"markup.raw" = "kairoGreen"
 "markup.quote" = "sangoMagenta"
 
-"diff.plus" = "umiGreen"
-"diff.minus" = "kuroiRed"
-"diff.delta" = "umiBlue"
+"diff.plus" = "sangoGreen"
+"diff.minus" = "sangoRed"
+"diff.delta" = "sangoBlue"
 
 # User Interface
-"ui.background" = { fg = "tsuki3", bg = "yoru0" }
+"ui.background" = { fg = "tsukiViolet", bg = "yorudakuViolet" }
 
 "ui.linenr" = { fg = "tsuki1" }
 "ui.linenr.selected" = { fg = "sangoYellow" }
 
-"ui.statusline" = { fg = "tsuki2", bg = "yoru1" }
+"ui.statusline" = { fg = "tsuki3", bg = "yoru2" }
 "ui.statusline.inactive" = { fg = "tsuki3", bg = "yoru1" }
-"ui.statusline.normal" = { fg = "yoru0", bg = "umiMagenta", modifiers = ["bold"] }
-"ui.statusline.insert" = { fg = "yoru0", bg = "umiGreen", modifiers = ["bold"]  }
-"ui.statusline.select" = { fg = "yoru0", bg = "umiOrange", modifiers = ["bold"]  }
+# Fixing higlights for modes later
+# "ui.statusline.normal" = { fg = "yoru0", bg = "umiMagenta", modifiers = ["bold"] }
+# "ui.statusline.insert" = { fg = "yoru0", bg = "umiGreen", modifiers = ["bold"]  }
+# "ui.statusline.select" = { fg = "yoru0", bg = "umiOrange", modifiers = ["bold"]  }
 
-"ui.popup" = { fg = "text", bg = "yoru2" }
-"ui.window" = { fg = "kuroiBlack" }
-"ui.help" = { fg = "tsuki0", bg = "yoru2" }
+"ui.popup" = { fg = "tsuki2", bg = "yoru3" }
+"ui.window" = { fg = "yoru0" }
+"ui.help" = { fg = "tsuki2", bg = "yoru3" }
 
-"ui.bufferline" = { fg = "sangoMagenta", bg = "yoru3" }
-"ui.bufferline.active" = { fg = "umiBlue", bg = "yoru0", underline = { color = "umiBlue", style = "line" } }
-"ui.bufferline.background" = { bg = "kuroiBlack" }
+"ui.bufferline" = { fg = "tsuki3", bg = "yoru4" }
+"ui.bufferline.active" = { fg = "tsuki1", bg = "yoru2" }
+"ui.bufferline.background" = { bg = "yoru2" }
 
-"ui.text" = "text"
-"ui.text.focus" = { fg = "text", bg = "yoru2", modifiers = ["bold"] }
-"ui.text.inactive" = { fg = "tsuki0" }
-"ui.text.directory" = { fg = "umiBlue" }
+"ui.text" = "tsuki3"
+"ui.text.focus" = { fg = "tsuki3", bg = "yoru4", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "tsuki2" }
+"ui.text.directory" = { fg = "sangoBlue" }
 
 "ui.virtual" = "tsuki3"
 "ui.virtual.ruler" = { bg = "yoru2" }
@@ -95,37 +98,37 @@
 "ui.virtual.inlay-hint" = { fg = "tsuki2", bg = "yoru1" }
 "ui.virtual.jump-label" = { fg = "kuroiRed", modifiers = ["bold"] }
 
-"ui.selection" = { bg = "tsuki2" }
+"ui.selection" = { bg = "yoru2", fg = "tsukiViolet" }
 
 "ui.cursor" = { fg = "yoru0", bg = "umiYellow" }
-"ui.cursor.primary" = { fg = "yoru0", bg = "tsuki3" }
+"ui.cursor.primary" = { fg = "yorudakuViolet", bg = "tsukiViolet" }
 "ui.cursor.match" = { fg = "kuroiYellow", modifiers = ["bold"] }
 
-"ui.cursor.primary.normal" = { fg = "yoru0", bg = "tsuki3" }
-"ui.cursor.primary.insert" = { fg = "yoru0", bg = "umiGreen" }
-"ui.cursor.primary.select" = { fg = "yoru0", bg = "umiOrange" }
+# "ui.cursor.primary.normal" = { fg = "yoru0", bg = "tsuki3" }
+# "ui.cursor.primary.insert" = { fg = "yoru0", bg = "umiGreen" }
+# "ui.cursor.primary.select" = { fg = "yoru0", bg = "umiOrange" }
 
-"ui.cursor.normal" = { fg = "yoru0", bg = "secondary_cursor_normal" }
-"ui.cursor.insert" = { fg = "yoru0", bg = "secondary_cursor_insert" }
-"ui.cursor.select" = { fg = "yoru0", bg = "secondary_cursor" }
+# "ui.cursor.normal" = { fg = "yoru0", bg = "tsuki3" }
+# "ui.cursor.insert" = { fg = "yoru0", bg = "tsuki3" }
+# "ui.cursor.select" = { fg = "yoru0", bg = "tsuki3" }
 
 "ui.cursorline.primary" = { bg = "yoru3" }
 
 "ui.highlight" = { bg = "tsuki2", modifiers = ["bold"] }
 
-"ui.menu" = { fg = "tsuki0", bg = "yoru2" }
-"ui.menu.selected" = { fg = "text", bg = "tsuki1", modifiers = ["bold"] }
+"ui.menu" = { fg = "tsuki3", bg = "yoru3" }
+"ui.menu.selected" = { fg = "tsukiBlue", bg = "yoru4", modifiers = ["bold"] }
 
-"diagnostic.error" = { underline = { color = "kuroiRed", style = "curl" } }
-"diagnostic.warning" = { underline = { color = "umiYellow", style = "curl" } }
-"diagnostic.info" = { underline = { color = "umiBlue", style = "curl" } }
-"diagnostic.hint" = { underline = { color = "umiCyan", style = "curl" } }
+"diagnostic.error" = { underline = { color = "sangoRed", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "sangoYellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "kairoBlue", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "sangoCyan", style = "curl" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 
-error = "kuroiRed"
-warning = "umiYellow"
-info = "umiBlue"
-hint = "umiCyan"
+error = "sangoRed"
+warning = "sangoYellow"
+info = "kairoBlue"
+hint = "sangoCyan"
 
 [palette]
 # Yoru - Night

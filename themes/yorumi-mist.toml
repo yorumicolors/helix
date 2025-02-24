@@ -1,0 +1,187 @@
+# Theme: Yorumi Mist
+# Author: yorumicolors
+
+# Syntax highlighting
+"attribute" = "kuroiOrange"
+
+"type" = "kuroiYellow"
+"type.enum.variant" = "umiCyan"
+
+"constructor" = "kuroiBlue"
+
+"constant" = "umiYellow"
+"constant.character" = "umiCyan"
+"constant.character.escape" = "umiMagenta"
+
+"string" = "umiGreen"
+"string.regexp" = "umiMagenta"
+"string.special" = "umiBlue"
+"string.special.symbol" = "umiRed"
+
+"comment" = { fg = "tsuki0" }
+
+"variable" = "kuroiCyan"
+"variable.parameter" = { fg = "umiMagenta" }
+"variable.builtin" = "umiRed"
+"variable.other.member" = "kuroiBlue"
+
+"label" = "kuroiBlue" # used for lifetimes
+
+"punctuation" = "tsuki1"
+"punctuation.special" = "kairoBlue"
+
+"keyword" = "umiViolet"
+"keyword.control.conditional" = { fg = "umiViolet" }
+
+"operator" = "kairoBlue"
+
+"function" = "umiBlue"
+"function.macro" = "umiViolet"
+
+"tag" = "umiBlue"
+
+"namespace" = { fg = "umiYellow" }
+
+"special" = "umiBlue" # fuzzy highlight
+
+"markup.heading.1" = "umiRed"
+"markup.heading.2" = "kuroiYellow"
+"markup.heading.3" = "umiYellow"
+"markup.heading.4" = "umiGreen"
+"markup.heading.5" = "umiBlue"
+"markup.heading.6" = "umiViolet"
+"markup.list" = "umiCyan"
+"markup.list.unchecked" = "tsuki1"
+"markup.list.checked" = "umiGreen"
+"markup.bold" = { fg = "umiRed", modifiers = ["bold"] }
+"markup.italic" = { fg = "umiRed", modifiers = ["italic"] }
+"markup.link.url" = { fg = "umiBlue", modifiers = ["underlined"] }
+"markup.link.text" = "tsukiViolet"
+"markup.raw" = "umiGreen"
+"markup.quote" = "kuroiMagenta"
+
+"diff.plus" = "umiGreen"
+"diff.minus" = "umiRed"
+"diff.delta" = "umiBlue"
+
+# User interface
+"ui.background" = { fg = "yoru0", bg = "tsuki3" }
+
+"ui.linenr" = { fg = "tsuki2" }
+"ui.linenr.selected" = { fg = "tsuki0" }
+
+"ui.statusline" = { fg = "yoru4", bg = "tsuki2" }
+"ui.statusline.inactive" = { fg = "yoru4", bg = "tsuki" }
+# "ui.statusline.normal" = { fg = "yoru4", bg = "sangoOrange" }
+# "ui.statusline.insert" = { fg = "yoru4", bg = "umiGreen"  }
+# "ui.statusline.select" = { fg = "yoru4", bg = "sangoMagenta" }
+
+"ui.popup" = { fg = "tsuki0", bg = "tsuki2" }
+"ui.window" = { fg = "tsuki0", bg = "tsuki2" }
+"ui.help" = { fg = "tsuki0", bg = "tsuki2" }
+
+"ui.bufferline" = { fg = "tsuki0", bg = "tsuki2" }
+"ui.bufferline.active" = { fg = "tsuki3", bg = "yoru4"}
+"ui.bufferline.background" = { bg = "tsuki3" }
+
+"ui.text" = "tsuki0"
+"ui.text.focus" = { fg = "tsuki3", bg = "yoru4", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "tsuki1" }
+"ui.text.directory" = { fg = "umiBlue" }
+
+"ui.virtual" = "tsuki1"
+"ui.virtual.ruler" = { bg = "yoru3" }
+"ui.virtual.indent-guide" = "yoru3"
+"ui.virtual.inlay-hint" = { fg = "tsuki1", bg = "yoru1" }
+"ui.virtual.jump-label" = { fg = "sangoOrange", modifiers = ["bold"] }
+
+"ui.selection" = { bg = "yoru4", fg = "tsuki3" }  
+"ui.cursor" = { fg = "tsuki3", bg = "yoru0" }
+"ui.cursor.primary" = { fg = "yoru0", bg = "sangoOrange" }
+"ui.cursor.match" = { fg = "sangoYellow", modifiers = ["bold"] }
+
+"ui.cursor.primary.normal" = { fg = "yoru0", bg = "sangoOrange" }
+"ui.cursor.primary.insert" = { fg = "yoru0", bg = "umiGreen" }
+"ui.cursor.primary.select" = { fg = "yoru0", bg = "sangoMagenta" }
+
+"ui.cursor.normal" = { fg = "tsuki3", bg = "umiBlue" }
+"ui.cursor.insert" = { fg = "tsuki3", bg = "umiGreen" }
+"ui.cursor.select" = { fg = "tsuki3", bg = "sangoMagenta" }
+
+"ui.cursorline.primary" = { bg = "yoru3" }
+
+"ui.highlight" = { bg = "tsukiViolet", modifiers = ["bold"] }
+
+"ui.menu" = { fg = "tsuki0", bg = "tsuki2" }
+"ui.menu.selected" = { fg = "tsuki3", bg = "yoru4", modifiers = ["bold"] }
+
+"diagnostic.error" = { underline = { color = "umiRed", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "umiYellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "kairoBlue", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "umiCyan", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+
+error = "umiRed"
+warning = "umiYellow"
+info = "kairoBlue"
+hint = "umiCyan"
+
+[palette]
+# Yoru - Night
+yoru0 = "#060914"
+yoru1 = "#0C0F1A"
+yoru2 = "#121520"
+yoru3 = "#1D202B"
+yoru4 = "#343742"
+yorudakuViolet = "#0E0D17"
+yorudakuGreen = "#141712"
+yorudakuBlue = "#0F1015"
+
+# Tsuki - Moon
+tsuki0 = "#4A4D59"
+tsuki1 = "#878996"
+tsuki2 = "#A7A9B5"
+tsuki3 = "#BDBFCB"
+tsukiViolet = "#C0BCE6"
+tsukiGreen = "#D7E1B7"
+tsukiBlue = "#C6DFEC"
+
+# Kuroi - Black
+kuroiRed = "#4E0E0E"
+kuroiGreen = "#1C4642"
+kuroiBlue = "#0D2C4E"
+kuroiYellow = "#605006"
+kuroiMagenta = "#4C1036"
+kuroiCyan = "#104351"
+kuroiViolet = "#2A1844"
+kuroiOrange = "#543407"
+
+# Umi - Sea
+umiRed = "#913B3B"
+umiGreen = "#697F4D"
+umiBlue = "#42608A"
+umiYellow = "#9D672F"
+umiMagenta = "#8D3F5A"
+umiCyan = "#478584"
+umiViolet = "#614686"
+umiOrange = "#A06A2C"
+
+# Sango - Coral
+sangoRed = "#C65E53"
+sangoGreen = "#8CB167"
+sangoBlue = "#597BC0"
+sangoYellow = "#C39D55"
+sangoMagenta = "#BB5D7D"
+sangoCyan = "#67BBB9"
+sangoViolet = "#8666B2"
+sangoOrange = "#C97E4F"
+
+# Kairo - Bioluminescent Sea
+kairoRed = "#F47571"
+kairoGreen = "#A9D07C"
+kairoBlue = "#798DDC"
+kairoYellow = "#E1C084"
+kairoMagenta = "#E184AF"
+kairoCyan = "#85E0CB"
+kairoViolet = "#AD8FD6"
+kairoOrange = "#F8A26D"
