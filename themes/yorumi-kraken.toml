@@ -24,7 +24,7 @@
 "variable.parameter" = { fg = "tsuki2" }
 "variable.builtin" = { fg = "sangoRed" }
 "variable.member" = "sangoYellow"
-"variable.other.member" = "umiBlue"
+"variable.other.member" = "sangoBlue"
 
 "label" = "sangoBlue" 
 
@@ -69,19 +69,19 @@
 # User Interface
 "ui.background" = { fg = "tsukiViolet", bg = "yorudakuViolet" }
 
-"ui.linenr" = { fg = "tsuki1" }
-"ui.linenr.selected" = { fg = "sangoYellow" }
+"ui.linenr" = { fg = "tsuki0" }
+"ui.linenr.selected" = { fg = "tsukiViolet" }
 
-"ui.statusline" = { fg = "tsuki3", bg = "yoru2" }
+"ui.statusline" = { fg = "tsukiBlue", bg = "yoru4" }
 "ui.statusline.inactive" = { fg = "tsuki3", bg = "yoru1" }
 # Fixing higlights for modes later
 # "ui.statusline.normal" = { fg = "yoru0", bg = "umiMagenta", modifiers = ["bold"] }
 # "ui.statusline.insert" = { fg = "yoru0", bg = "umiGreen", modifiers = ["bold"]  }
 # "ui.statusline.select" = { fg = "yoru0", bg = "umiOrange", modifiers = ["bold"]  }
 
-"ui.popup" = { fg = "tsuki2", bg = "yoru3" }
+"ui.popup" = { fg = "tsukiBlue", bg = "yoru4" }
 "ui.window" = { fg = "yoru0" }
-"ui.help" = { fg = "tsuki2", bg = "yoru3" }
+"ui.help" = { fg = "tsuki2", bg = "yoru4" }
 
 "ui.bufferline" = { fg = "tsuki3", bg = "yoru4" }
 "ui.bufferline.active" = { fg = "tsuki1", bg = "yoru2" }
@@ -116,8 +116,8 @@
 
 "ui.highlight" = { bg = "tsuki2", modifiers = ["bold"] }
 
-"ui.menu" = { fg = "tsuki3", bg = "yoru3" }
-"ui.menu.selected" = { fg = "tsukiBlue", bg = "yoru4", modifiers = ["bold"] }
+"ui.menu" = { fg = "tsukiBlue", bg = "yoru4" }
+"ui.menu.selected" = { fg = "tsuki3", bg = "yoru2", modifiers = ["bold"] }
 
 "diagnostic.error" = { underline = { color = "sangoRed", style = "curl" } }
 "diagnostic.warning" = { underline = { color = "sangoYellow", style = "curl" } }
