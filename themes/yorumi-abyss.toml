@@ -4,14 +4,14 @@
 # Syntax highlighting
 "attribute" = "sangoOrange"
 
-"type" = "umiYellow"
-"type.enum.variant" = "umiCyan"
+"type" = "sangoYellow"
+"type.enum.variant" = "sangoCyan"
 
 "constructor" = "sangoBlue"
 
-"constant" = "kuroiYellow"
+"constant" = "sangoOrange"
 "constant.character" = "umiCyan"
-"constant.character.escape" = "kuroiViolet"
+"constant.character.escape" = "sangoMagenta"
 
 "string" = "kairoGreen"
 "string.regexp" = "sangoRed"
@@ -28,20 +28,20 @@
 
 "label" = "sangoBlue" 
 
-"punctuation" = "tsuki1"
-"punctuation.special" = "umiMagenta"
+"punctuation" = "tsuki2"
+"punctuation.special" = "sangoCyan"
 
 "keyword" = "sangoViolet"
 "keyword.control.conditional" = { fg = "sangoViolet" }
 
-"operator" = "sangoYellow"
+"operator" = "tsuki2"
 
-"function" = "sangoBlue"
+"function" = "kairoBlue"
 "function.macro" = "sangoViolet"
 
 "tag" = "umiBlue"
 
-"namespace" = { fg = "sangoYellow" }
+"namespace" = { fg = "tsuki3" }
 
 "special" = "umiBlue"
 
@@ -74,10 +74,11 @@
 
 "ui.statusline" = { fg = "tsuki3", bg = "yoru2" }
 "ui.statusline.inactive" = { fg = "tsuki3", bg = "yoru1" }
-# Fixing higlights for modes later
-# "ui.statusline.normal" = { fg = "yoru0", bg = "umiMagenta", modifiers = ["bold"] }
-# "ui.statusline.insert" = { fg = "yoru0", bg = "umiGreen", modifiers = ["bold"]  }
-# "ui.statusline.select" = { fg = "yoru0", bg = "umiOrange", modifiers = ["bold"]  }
+# TODO:
+# Fixing higlights for modes later to match neovim once the neovim port is finished
+"ui.statusline.normal" = { fg = "tsukiBlue", bg = "umiGreen", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "tsukiBlue", bg = "umiBlue", modifiers = ["bold"]  }
+"ui.statusline.select" = { fg = "tsukiBlue", bg = "umiOrange", modifiers = ["bold"]  }
 
 "ui.popup" = { fg = "tsuki2", bg = "yoru3" }
 "ui.window" = { fg = "yoru0" }
@@ -104,13 +105,16 @@
 "ui.cursor.primary" = { fg = "yoru0", bg = "tsuki1" }
 "ui.cursor.match" = { fg = "kuroiYellow", modifiers = ["bold"] }
 
-# "ui.cursor.primary.normal" = { fg = "yoru0", bg = "tsuki3" }
-# "ui.cursor.primary.insert" = { fg = "yoru0", bg = "umiGreen" }
-# "ui.cursor.primary.select" = { fg = "yoru0", bg = "umiOrange" }
+# TODO:
+# Fix the cursor highlights and match them properly when the cursor is
+# in one of these modes
+"ui.cursor.primary.normal" = { fg = "yoru0", bg = "umiGreen" }
+"ui.cursor.primary.insert" = { fg = "yoru0", bg = "umiBlue" }
+"ui.cursor.primary.select" = { fg = "yoru0", bg = "umiOrange" }
 
-# "ui.cursor.normal" = { fg = "yoru0", bg = "tsuki3" }
-# "ui.cursor.insert" = { fg = "yoru0", bg = "tsuki3" }
-# "ui.cursor.select" = { fg = "yoru0", bg = "tsuki3" }
+"ui.cursor.normal" = { fg = "yoru0", bg = "umiGreen" }
+"ui.cursor.insert" = { fg = "yoru0", bg = "umiBlue" }
+"ui.cursor.select" = { fg = "yoru0", bg = "umiOrange" }
 
 "ui.cursorline.primary" = { bg = "yoru3" }
 
