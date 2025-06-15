@@ -70,11 +70,12 @@
 "ui.linenr" = { fg = "tsuki2" }
 "ui.linenr.selected" = { fg = "tsuki0" }
 
-"ui.statusline" = { fg = "yoru4", bg = "tsuki2" }
-"ui.statusline.inactive" = { fg = "yoru4", bg = "tsuki" }
-# "ui.statusline.normal" = { fg = "yoru4", bg = "sangoOrange" }
-# "ui.statusline.insert" = { fg = "yoru4", bg = "umiGreen"  }
-# "ui.statusline.select" = { fg = "yoru4", bg = "sangoMagenta" }
+"ui.statusline" = { fg = "tsuki3", bg = "yoru4" }
+"ui.statusline.inactive" = { fg = "tsuki3", bg = "tsuki1" }
+
+"ui.statusline.normal" = { fg = "tsukiBlue", bg = "umiGreen" }
+"ui.statusline.insert" = { fg = "tsukiBlue", bg = "umiBlue"  }
+"ui.statusline.select" = { fg = "tsukiBlue", bg = "umiOrange" }
 
 "ui.popup" = { fg = "tsuki0", bg = "tsuki2" }
 "ui.window" = { fg = "tsuki0", bg = "tsuki2" }
@@ -100,9 +101,9 @@
 "ui.cursor.primary" = { fg = "yoru0", bg = "sangoOrange" }
 "ui.cursor.match" = { fg = "sangoYellow", modifiers = ["bold"] }
 
-"ui.cursor.primary.normal" = { fg = "yoru0", bg = "sangoOrange" }
-"ui.cursor.primary.insert" = { fg = "yoru0", bg = "umiGreen" }
-"ui.cursor.primary.select" = { fg = "yoru0", bg = "sangoMagenta" }
+"ui.cursor.primary.normal" = { fg = "yoru0", bg = "umiGreen" }
+"ui.cursor.primary.insert" = { fg = "yoru0", bg = "umiBlue" }
+"ui.cursor.primary.select" = { fg = "yoru0", bg = "umiOrange" }
 
 "ui.cursor.normal" = { fg = "tsuki3", bg = "umiBlue" }
 "ui.cursor.insert" = { fg = "tsuki3", bg = "umiGreen" }

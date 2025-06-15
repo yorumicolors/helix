@@ -96,7 +96,7 @@
 "ui.virtual" = "tsuki3"
 "ui.virtual.ruler" = { bg = "yoru2" }
 "ui.virtual.indent-guide" = "yoru2"
-"ui.virtual.inlay-hint" = { fg = "tsuki2", bg = "yoru1" }
+"ui.virtual.inlay-hint" = { fg = "tsuki2", bg = "yoru2" }
 "ui.virtual.jump-label" = { fg = "kuroiRed", modifiers = ["bold"] }
 
 "ui.selection" = { bg = "yoru4", fg = "tsuki3" }

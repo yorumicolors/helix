@@ -9,7 +9,7 @@
 
 "constructor" = "sangoBlue"
 
-"constant" = "kuroiYellow"
+"constant" = "umiYellow"
 "constant.character" = "umiCyan"
 "constant.character.escape" = "kuroiViolet"
 
@@ -18,7 +18,7 @@
 "string.special" = "umiBlue"
 "string.special.symbol" = "sangoYellow"
 
-"comment" = { fg = "tsuki0" }
+"comment" = { fg = "tsuki1" }
 
 "variable" = { fg = "tsuki3" }
 "variable.parameter" = { fg = "tsuki2" }
@@ -75,9 +75,9 @@
 "ui.statusline" = { fg = "tsukiBlue", bg = "yoru4" }
 "ui.statusline.inactive" = { fg = "tsuki3", bg = "yoru1" }
 # Fixing higlights for modes later
-# "ui.statusline.normal" = { fg = "yoru0", bg = "umiMagenta", modifiers = ["bold"] }
-# "ui.statusline.insert" = { fg = "yoru0", bg = "umiGreen", modifiers = ["bold"]  }
-# "ui.statusline.select" = { fg = "yoru0", bg = "umiOrange", modifiers = ["bold"]  }
+"ui.statusline.normal" = { fg = "yorudakuViolet", bg = "sangoGreen" }
+"ui.statusline.insert" = { fg = "yorudakuViolet", bg = "sangoBlue"  }
+"ui.statusline.select" = { fg = "yorudakuViolet", bg = "sangoOrange"  }
 
 "ui.popup" = { fg = "tsukiBlue", bg = "yoru4" }
 "ui.window" = { fg = "yoru0" }
@@ -95,7 +95,7 @@
 "ui.virtual" = "tsuki3"
 "ui.virtual.ruler" = { bg = "yoru2" }
 "ui.virtual.indent-guide" = "yoru2"
-"ui.virtual.inlay-hint" = { fg = "tsuki2", bg = "yoru1" }
+"ui.virtual.inlay-hint" = { fg = "tsukiBlue", bg = "yoru3" }
 "ui.virtual.jump-label" = { fg = "kuroiRed", modifiers = ["bold"] }
 
 "ui.selection" = { bg = "yoru2", fg = "tsukiViolet" }
@@ -104,9 +104,9 @@
 "ui.cursor.primary" = { fg = "yorudakuViolet", bg = "tsukiViolet" }
 "ui.cursor.match" = { fg = "kuroiYellow", modifiers = ["bold"] }
 
-# "ui.cursor.primary.normal" = { fg = "yoru0", bg = "tsuki3" }
-# "ui.cursor.primary.insert" = { fg = "yoru0", bg = "umiGreen" }
-# "ui.cursor.primary.select" = { fg = "yoru0", bg = "umiOrange" }
+"ui.cursor.primary.normal" = { fg = "yorudakuViolet", bg = "sangoGreen" }
+"ui.cursor.primary.insert" = { fg = "yorudakuViolet", bg = "sangoBlue" }
+"ui.cursor.primary.select" = { fg = "yorudakuViolet", bg = "sangoOrange" }
 
 # "ui.cursor.normal" = { fg = "yoru0", bg = "tsuki3" }
 # "ui.cursor.insert" = { fg = "yoru0", bg = "tsuki3" }
