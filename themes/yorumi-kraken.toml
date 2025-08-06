@@ -132,6 +132,7 @@ hint = "sangoCyan"
 
 [palette]
 # Yoru - Night
+yoru = "#02040E"
 yoru0 = "#060914"
 yoru1 = "#0C0F1A"
 yoru2 = "#121520"
@@ -139,16 +140,28 @@ yoru3 = "#1D202B"
 yoru4 = "#343742"
 yorudakuViolet = "#0E0D17"
 yorudakuGreen = "#141712"
-yorudakuBlue = "#0F1015"
+yorudakuBlue = "#0B0B0B"
 
 # Tsuki - Moon
+tsuki = "#C7C9D6"
 tsuki0 = "#4A4D59"
-tsuki1 = "#878996"
-tsuki2 = "#A7A9B5"
-tsuki3 = "#BDBFCB"
+tsuki1 = "#656771"
+tsuki2 = "#878996"
+tsuki3 = "#A7A9B5"
+tsuki4 = "#BDBFCB"
 tsukiViolet = "#C0BCE6"
 tsukiGreen = "#D7E1B7"
-tsukiBlue = "#C6DFEC"
+tsukiBlue = "#B7B7DC"
+
+# Raito - Light
+raitoRed = "#E8A8A6"
+raitoGreen = "#CEE1B7"
+raitoBlue = "#A6B2E2"
+raitoYellow = "#E4D8B4"
+raitoMagenta = "#E3B5D1"
+raitoCyan = "#BBE2DA"
+raitoPurple = "#BEA9E5"
+raitoOrange = "#E9CEA5"
 
 # Kuroi - Black
 kuroiRed = "#4E0E0E"

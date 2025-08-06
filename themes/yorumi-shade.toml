@@ -19,13 +19,13 @@
 "string.special" = "kuroiBlue"
 "string.special.symbol" = "umiYellow"
 
-"comment" = { fg = "yoru4" }
+"comment" = { fg = "tsuki2" }
 
 "variable" = "tsuki2"
 "variable.parameter" = "tsuki1"
 "variable.builtin" = "umiRed"
 
-"variable.other.member" = "umiBlue"
+"variable.other.member" = "sangoBlue"
 "variable.member" = "umiYellow"
 
 "label" = "umiBlue"  # used for lifetimes
@@ -33,14 +33,14 @@
 "punctuation" = "tsuki1"
 "punctuation.special" = "umiCyan"
 "punctuation.delimiter" = "tsuki0"
-"punctuation.bracket" = "yoru4"
+"punctuation.bracket" = "tsuki4"
 
 "keyword" = "umiViolet"
 "keyword.control.conditional" = { fg = "sangoViolet" }
 "keyword.luap" = "umiRed"
 "keyword.return" = "umiMagenta"
 
-"operator" = "umiYellow"
+"operator" = "tsuki2"
 
 "function" = "sangoBlue"
 "function.macro" = "sangoViolet"
@@ -53,7 +53,7 @@
 
 "special" = "kairoBlue"  # fuzzy highlight
 
-"markup.heading.1" = "sangoRed"
+"markup.heading.1" = "kuroiCyan"
 "markup.heading.2" = "sangoGreen"
 "markup.heading.3" = "umiGreen"
 "markup.heading.4" = "umiYellow"
@@ -74,23 +74,28 @@
 "diff.delta" = "umiYellow"
 
 # User Interface
-"ui.background" = { fg = "tsuki3", bg = "yorudakuBlue" }
+"ui.background" = { fg = "tsuki4", bg = "yorudakuBlue" }
 
-"ui.linenr" = { fg = "tsuki1" }
-"ui.linenr.selected" = { fg = "tsukiBlue" }
+"ui.linenr" = { fg = "tsuki2" }
+"ui.linenr.selected" = { fg = "raitoBlue" }
 
-"ui.statusline" = { fg = "tsuki1", bg = "#15171D" }
+"ui.statusline" = { fg = "tsuki4", bg = "yorudakuViolet" }
 "ui.statusline.inactive" = { fg = "yoru4", bg = "yoru1" }
+# TODO:
+# Fixing higlights for modes later to match neovim once the neovim port is finished
+"ui.statusline.normal" = { fg = "yoru", bg = "raitoGreen", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "yoru", bg = "raitoBlue", modifiers = ["bold"]  }
+"ui.statusline.select" = { fg = "yoru", bg = "raitoOrange", modifiers = ["bold"] }
 
-"ui.popup" = { fg = "tsuki1", bg = "#15171D" }
+"ui.popup" = { fg = "tsuki1", bg = "yorudakuViolet" }
 "ui.window" = { fg = "yorudakuGreen" }
-"ui.help" = { fg = "tsuki1", bg = "#15171D" }
+"ui.help" = { fg = "tsuki1", bg = "yorudakuViolet" }
 
-"ui.bufferline" = { fg = "tsuki2", bg = "#15171D" }
+"ui.bufferline" = { fg = "tsuki2", bg = "yorudakuViolet" }
 "ui.bufferline.active" = { fg = "tsuki3", bg = "yorudakuBlue" }
-"ui.bufferline.background" = { bg = "#15171D", fg = "tsuki2" }
+"ui.bufferline.background" = { bg = "yorudakuViolet", fg = "tsuki2" }
 
-"ui.text" = "tsuki1"
+"ui.text" = "tsuki4"
 "ui.text.focus" = { fg = "tsukiBlue", bg = "yoru4", modifiers = ["bold"] }
 "ui.text.inactive" = { fg = "tsuki0" }
 "ui.text.directory" = { fg = "umiBlue" }
@@ -108,8 +113,8 @@
 "ui.cursor.match" = { fg = "kuroiYellow", modifiers = ["bold"] }
 
 "ui.cursor.primary.normal" = { fg = "yorudakuBlue", bg = "tsuki3" }
-"ui.cursor.primary.insert" = { fg = "yorudakuBlue", bg = "umiGreen" }
-"ui.cursor.primary.select" = { fg = "yorudakuBlue", bg = "umiOrange" }
+"ui.cursor.primary.insert" = { fg = "yorudakuBlue", bg = "raitoBlue" }
+"ui.cursor.primary.select" = { fg = "yorudakuBlue", bg = "raitoOrange" }
 
 "ui.cursor.normal" = { fg = "yorudakuBlue", bg = "tsuki3" }
 "ui.cursor.insert" = { fg = "yorudakuBlue", bg = "tsuki3" }
@@ -119,8 +124,8 @@
 
 "ui.highlight" = { bg = "tsuki2", modifiers = ["bold"] }
 
-"ui.menu" = { fg = "tsuki1", bg = "#15171D" }
-"ui.menu.selected" = { fg = "tsukiBlue", bg = "yoru4", modifiers = ["bold"] }
+"ui.menu" = { fg = "tsuki1", bg = "yorudakuViolet" }
+"ui.menu.selected" = { fg = "raitoBlue", bg = "yoru3", modifiers = ["bold"] }
 
 "diagnostic.error" = { underline = { color = "sangoRed", style = "curl" } }
 "diagnostic.warning" = { underline = { color = "umiYellow", style = "curl" } }
@@ -135,6 +140,7 @@ hint = "umiCyan"
 
 [palette]
 # Yoru - Night
+yoru = "#02040E"
 yoru0 = "#060914"
 yoru1 = "#0C0F1A"
 yoru2 = "#121520"
@@ -142,16 +148,28 @@ yoru3 = "#1D202B"
 yoru4 = "#343742"
 yorudakuViolet = "#0E0D17"
 yorudakuGreen = "#141712"
-yorudakuBlue = "#0F1015"
+yorudakuBlue = "#0B0B0B"
 
 # Tsuki - Moon
+tsuki = "#C7C9D6"
 tsuki0 = "#4A4D59"
-tsuki1 = "#878996"
-tsuki2 = "#A7A9B5"
-tsuki3 = "#BDBFCB"
+tsuki1 = "#656771"
+tsuki2 = "#878996"
+tsuki3 = "#A7A9B5"
+tsuki4 = "#BDBFCB"
 tsukiViolet = "#C0BCE6"
 tsukiGreen = "#D7E1B7"
-tsukiBlue = "#C6DFEC"
+tsukiBlue = "#B7B7DC"
+
+# Raito - Light
+raitoRed = "#E8A8A6"
+raitoGreen = "#CEE1B7"
+raitoBlue = "#A6B2E2"
+raitoYellow = "#E4D8B4"
+raitoMagenta = "#E3B5D1"
+raitoCyan = "#BBE2DA"
+raitoPurple = "#BEA9E5"
+raitoOrange = "#E9CEA5"
 
 # Kuroi - Black
 kuroiRed = "#4E0E0E"
