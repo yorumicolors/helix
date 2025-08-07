@@ -28,11 +28,12 @@ theme = "yorumi-[options: abyss|mist|kraken|shade]"
 ```
 
 ### Themes
-- abyss: the dark colorscheme
-- mist: the lighter version
-- shade:  the washed off dark flavor of yorumi
-- kraken: purple version of yorumi
+- abyss: the darkest theme
+- mist: the lightest theme
+- shade:  the neutral palette
+- kraken: the sea monsters
 
 
 ### Accessibility
 The text colors maintain a 7:1 contrast ratio, [WCAG 2.1 Level AAA](https://www.w3.org/TR/WCAG21/#contrast-enhanced).
+
